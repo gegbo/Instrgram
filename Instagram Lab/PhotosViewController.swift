@@ -62,7 +62,7 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         {
             return 0
         }
-        print(photos?.count)
+        print(photos?.count) //tells me how many photos there are 
         return (photos?.count)!
         
     }
@@ -79,8 +79,6 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         if let imagePath = photo["images"]!["standard_resolution"]!!["url"] as? String
         {
-            print(imagePath)
-            
             let imageUrl = NSURL(string: imagePath)
             
             cell.photoView.setImageWithURL(imageUrl!)
