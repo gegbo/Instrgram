@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		8EA9B5EE91BAAB2A537C705E /* Pods_Instagram_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836D3EA7CA26D1634A4BE8B /* Pods_Instagram_Lab.framework */; };
 		EA35BF381C5D5F8200F0DEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BF371C5D5F8200F0DEF0 /* AppDelegate.swift */; };
-		EA35BF3A1C5D5F8200F0DEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BF391C5D5F8200F0DEF0 /* ViewController.swift */; };
 		EA35BF3D1C5D5F8200F0DEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA35BF3B1C5D5F8200F0DEF0 /* Main.storyboard */; };
 		EA35BF3F1C5D5F8200F0DEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35BF3E1C5D5F8200F0DEF0 /* Assets.xcassets */; };
 		EA35BF421C5D5F8200F0DEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA35BF401C5D5F8200F0DEF0 /* LaunchScreen.storyboard */; };
+		EA35BF4A1C5D668500F0DEF0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BF491C5D668500F0DEF0 /* PhotosViewController.swift */; };
+		EA35BF4C1C5D6EF500F0DEF0 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35BF4B1C5D6EF500F0DEF0 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		9836D3EA7CA26D1634A4BE8B /* Pods_Instagram_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA35BF341C5D5F8200F0DEF0 /* Instagram Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA35BF371C5D5F8200F0DEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA35BF391C5D5F8200F0DEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA35BF3C1C5D5F8200F0DEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA35BF3E1C5D5F8200F0DEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA35BF411C5D5F8200F0DEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA35BF431C5D5F8200F0DEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA35BF491C5D668500F0DEF0 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		EA35BF4B1C5D6EF500F0DEF0 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				EA35BF371C5D5F8200F0DEF0 /* AppDelegate.swift */,
-				EA35BF391C5D5F8200F0DEF0 /* ViewController.swift */,
 				EA35BF3B1C5D5F8200F0DEF0 /* Main.storyboard */,
 				EA35BF3E1C5D5F8200F0DEF0 /* Assets.xcassets */,
 				EA35BF401C5D5F8200F0DEF0 /* LaunchScreen.storyboard */,
 				EA35BF431C5D5F8200F0DEF0 /* Info.plist */,
+				EA35BF491C5D668500F0DEF0 /* PhotosViewController.swift */,
+				EA35BF4B1C5D6EF500F0DEF0 /* ImageCell.swift */,
 			);
 			path = "Instagram Lab";
 			sourceTree = "<group>";
@@ -210,8 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA35BF3A1C5D5F8200F0DEF0 /* ViewController.swift in Sources */,
 				EA35BF381C5D5F8200F0DEF0 /* AppDelegate.swift in Sources */,
+				EA35BF4A1C5D668500F0DEF0 /* PhotosViewController.swift in Sources */,
+				EA35BF4C1C5D6EF500F0DEF0 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
